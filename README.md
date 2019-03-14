@@ -7,6 +7,8 @@
 4. `curl localhost:8888/trending`
 4. 🔥🔥🔥
 
+Note: Used node version `10.15.3`
+
 ### Approach
 
 This is a NLP-based solution that uses part-of-speech tagging to get the most frequent terms from the titles of each feed entry. The procedure is:
