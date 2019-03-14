@@ -1,0 +1,20 @@
+{
+  "name": "trending",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "feed-reader": "^1.1.6",
+    "lodash": "^4.17.11",
+    "natural": "^0.6.3",
+    "pos": "^0.4.2",
+    "request": "^2.88.0"
+  }
+}
