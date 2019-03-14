@@ -1,7 +1,7 @@
 # Trending Topics
 
 ### Installation
-1. `git clone ''`
+1. `git clone https://github.com/bf6/trending.git`
 2. `npm install`
 3. `npm start`
 4. `curl localhost:8888/trending`
@@ -9,7 +9,7 @@
 
 ### Approach
 
-This is a NLP-based solution that uses part-of-speech tagging to get the most frequent terms from the titles of each feed entry. The procedure is as follows:
+This is a NLP-based solution that uses part-of-speech tagging to get the most frequent terms from the titles of each feed entry. The procedure is:
 
 1. Parse the RSS feeds from NYT, CNN and Fox
 2. Get the titles for each entry
