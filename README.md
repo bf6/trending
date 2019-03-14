@@ -19,7 +19,7 @@ This is a NLP-based solution that uses part-of-speech tagging to get the most fr
 4. Filter for proper nouns
 5. Join all proper nouns in a single document
 6. Get the term-frequency-inverse-document-frequency for each term in the new document, which is a rough measure of the importance of a word in that document
-7. Return the top 10 terms
+7. Return the top 5 terms
 
 ### Discussion
 

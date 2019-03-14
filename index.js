@@ -48,7 +48,7 @@ app.get('/trending', async (req, res) => {
 
 	// Sort terms by their term-frequency-inverse-document-frequency
 	// and get the top 10
-	topics = _.sortBy(termFreq.listTerms(0), item => -item.tfidf).map(item => item.term).slice(0, 10)
+	topics = _.sortBy(termFreq.listTerms(0), item => -item.tfidf).map(item => item.term).slice(0, 5)
 	res.send({topics})
 })
 
